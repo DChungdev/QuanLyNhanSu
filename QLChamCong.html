@@ -1,0 +1,299 @@
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+
+<!-- Template Main CSS File -->
+<link href="assets/css/main.css" rel="stylesheet">
+<section class="section dashboard m-2">
+    <div class="container-fluid">
+
+        <!-- Left side columns -->
+        <div class="col-lg-12">
+            <div class="row">
+                <!-- Quantity Card -->
+                <div class="col-xl-3 col-md-6">
+                    <div class="card info-card sales-card">
+
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Lọc</h6>
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Trưởng phòng</a></li>
+                                <li><a class="dropdown-item" href="#">Nhân viên</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Số lượng</h5>
+
+                            <div class="d-flex align-items-center">
+                                <div
+                                    class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-person-fill"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>210</h6>
+                                    <span class="text-muted small pt-2 ps-1">Nhân viên</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- End Sales Card -->
+
+                <!-- Checked Card -->
+                <div class="col-xl-3 col-md-6">
+                    <div class="card info-card revenue-card">
+
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Lọc</h6>
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                                <li><a class="dropdown-item" href="#">Tuần này</a></li>
+                                <li><a class="dropdown-item" href="#">Tháng này</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Đã chấm công <span>| Hôm nay</span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div
+                                    class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-calendar-check"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>168</h6>
+                                    <span class="text-success small pt-1 fw-bold">85%</span> <span
+                                        class="text-muted small pt-2 ps-1">checked</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- End Revenue Card -->
+                <!-- Late Card -->
+                <div class="col-xl-3 col-md-6">
+
+                    <div class="card info-card customers-card">
+
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Lọc</h6>
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                                <li><a class="dropdown-item" href="#">Tuần này</a></li>
+                                <li><a class="dropdown-item" href="#">Tháng này</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Đi muộn <span>| Hôm nay</span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div
+                                    class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-clock"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>2</h6>
+                                    <span class=" text-warning small pt-2 ps-1">Late</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div><!-- End Customers Card -->
+
+                <div class="col-xl-3 col-md-6">
+                    <div class="card info-card sales-card">
+
+                        <div class="filter">
+                            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                                <li class="dropdown-header text-start">
+                                    <h6>Lọc</h6>
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                                <li><a class="dropdown-item" href="#">Tuần này</a></li>
+                                <li><a class="dropdown-item" href="#">Tháng này</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Nghỉ phép <span>| Hôm nay</span></h5>
+
+                            <div class="d-flex align-items-center">
+                                <div
+                                    class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-calendar-x"></i>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>1</h6>
+                                    <span class="text-danger small pt-1 fw-bold">Nghỉ có phép</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="card recent-sales overflow-auto">
+
+                <div class="filter">
+                    <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                        <li class="dropdown-header text-start">
+                            <h6>Lọc dữ liệu</h6>
+                        </li>
+
+                        <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                        <li><a class="dropdown-item" href="#">Tuần này</a></li>
+                        <li><a class="dropdown-item" href="#">Tháng này</a></li>
+                    </ul>
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Báo cáo chấm công <span>| Hôm nay</span></h5>
+
+                    <table class="table table-borderless datatable">
+                        <thead>
+                            <tr>
+                                <th scope="col">STT</th>
+                                <th scope="col">Họ tên</th>
+                                <th scope="col">Phòng ban</th>
+                                <th scope="col">Thời gian</th>
+                                <th scope="col">Trạng thái</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><a href="#">168</a></th>
+                                <td>Nguyễn Đức Chung</td>
+                                <td><a href="#" class="text-primary">Phòng Kinh doanh</a></td>
+                                <td>7:01:20s</td>
+                                <td><span class="badge bg-warning">Muộn</span></td>
+                                <td style="width: 100px;"><span class="badge bg-success">Sửa</span> <span
+                                        class="badge bg-danger">Xóa</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">167</a></th>
+                                <td>Nguyễn Khắc Cảnh</td>
+                                <td><a href="#" class="text-primary">Phòng Kinh doanh</a></td>
+                                <td>7:00:30s</td>
+                                <td><span class="badge bg-warning">Muộn</span></td>
+                                <td style="width: 100px;"><span class="badge bg-success">Sửa</span> <span
+                                        class="badge bg-danger">Xóa</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">166</a></th>
+                                <td>Nguyễn Hữu Đức</td>
+                                <td><a href="#" class="text-primary">Phòng Tài chính</a></td>
+                                <td>6:56:10s</td>
+                                <td><span class="badge bg-success">Thành công</span></td>
+                                <td style="width: 100px;"><span class="badge bg-success">Sửa</span> <span
+                                        class="badge bg-danger">Xóa</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">165</a></th>
+                                <td>Nguyễn Thúy Vy</td>
+                                <td><a href="#" class="text-primar">Phòng Kỹ thuật</a></td>
+                                <td>6:55:21s</td>
+                                <td><span class="badge bg-success">Thành công</span></td>
+                                <td style="width: 100px;"><span class="badge bg-success">Sửa</span> <span
+                                        class="badge bg-danger">Xóa</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">164</a></th>
+                                <td>Nguyễn Anh Tú</td>
+                                <td><a href="#" class="text-primary">Phòng Tài chính</a></td>
+                                <td>6:54:34s</td>
+                                <td><span class="badge bg-success">Thành công</span></td>
+                                <td style="width: 100px;"><span class="badge bg-success">Sửa</span> <span
+                                        class="badge bg-danger">Xóa</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">163</a></th>
+                                <td>Nguyễn Tiến Đạt</td>
+                                <td><a href="#" class="text-primary">Phòng Kỹ thuật</a></td>
+                                <td>6:50:59s</td>
+                                <td><span class="badge bg-success">Thành công</span></td>
+                                <td style="width: 100px;"><span class="badge bg-success">Sửa</span> <span
+                                        class="badge bg-danger">Xóa</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="#">162</a></th>
+                                <td>Nguyễn Vũ Mai Anh</td>
+                                <td><a href="#" class="text-primary">Phòng Kinh doanh</a></td>
+                                <td>6:50:18s</td>
+                                <td><span class="badge bg-success">Thành công</span></td>
+                                <td style="width: 100px;"><span class="badge bg-success">Sửa</span> <span
+                                        class="badge bg-danger">Xóa</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </div><!-- End Recent Sales -->
+        <div class="col-12 card">
+            <div class="card-body">
+                <h5 class="card-title">Xuất báo cáo</h5>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xxl-2 col-md-6">
+                            <select class="p-1">
+                                <option>Tất cả</option>
+                                <option>Tăng ca</option>
+                                <option>Hành chính</option>
+                            </select>
+                        </div>
+                        <div class="col-xxl-3 col-md-6">
+                            <label>Phòng ban:</label>
+                            <select class="p-1">
+                                <option>Phòng Kinh doanh</option>
+                                <option>Phòng Tài chính</option>
+                                <option>Phòng kỹ thuật</option>
+                            </select>
+                        </div>
+                        <div class="col-xxl-5 col-md-6">
+                            <label>Thời gian: </label>
+                            <input type="date"> - <input type="date">
+                        </div>
+                        <div class="col-xxl-2 col-md-6">
+                            <button class="btn bg-primary text-white" type="button">Xuất báo cáo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+    
+        <div class="credits"> Designed by <a href="https://bootstrapmade.com/">TamDa</a>
+        </div>
+    </footer><!-- End Footer -->
+</section>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
